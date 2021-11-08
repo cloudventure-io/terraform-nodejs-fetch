@@ -1,0 +1,27 @@
+{
+  "name": "@cloudventure/fetch",
+  "author": "Vahe Sahakyan <vahe@spir.me>",
+  "version": "1.1.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest --coverage",
+    "test:watch": "jest --coverage --watch"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cloudventure-io/terraform-nodejs-fetch"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "files": [
+    "src/*.js"
+  ]
+}
